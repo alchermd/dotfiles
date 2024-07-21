@@ -2,6 +2,10 @@
 "
 " As suggested by the community, this configuration file
 " is homegrown from my own needs throughout my vim journey.
+"
+" Sample usage:
+"  $ git clone git@github.com:alchermd/dotfiles.git ~/src/dotfiles
+"  $ ln -sf ~/src/dotfiles/.vim ~/.vim
 
 " Double tap 'j' to enter normal mode form insert mode
-imap jj <Esc>
+imap jj <Esc> 
