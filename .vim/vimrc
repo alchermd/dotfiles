@@ -18,4 +18,5 @@ imap jj <Esc>
 
 " Basic settings
 set autoindent
+set ruler number " Show line numbers
 
