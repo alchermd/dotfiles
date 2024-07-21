@@ -7,5 +7,15 @@
 "  $ git clone git@github.com:alchermd/dotfiles.git ~/src/dotfiles
 "  $ ln -sf ~/src/dotfiles/.vim ~/.vim
 
+
+" Filetype-specific indenting, syntax highlighting, omni-completion.
+filetype plugin indent on
+syntax on
+set omnifunc=syntaxcomplete#Complete
+
 " Double tap 'j' to enter normal mode form insert mode
 imap jj <Esc> 
+
+" Basic settings
+set autoindent
+
