@@ -7,6 +7,16 @@
 "  $ git clone git@github.com:alchermd/dotfiles.git ~/src/dotfiles
 "  $ ln -sf ~/src/dotfiles/.vim ~/.vim
 
+" 3rd-party plugins
+call plug#begin()
+  Plug 'preservim/nerdtree'
+  Plug 'ryanoasis/vim-devicons'
+call plug#end()
+
+" NERDTree options
+let NERDTreeShowHidden=1
+let g:NERDTreeWinPos="right"
+autocmd VimEnter * NERDTree
 
 " Filetype-specific indenting, syntax highlighting, omni-completion.
 filetype plugin indent on
@@ -19,4 +29,5 @@ imap jj <Esc>
 " Basic settings
 set autoindent
 set ruler number " Show line numbers
+set encoding=utf-8
 
