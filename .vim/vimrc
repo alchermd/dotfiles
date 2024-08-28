@@ -31,3 +31,6 @@ set autoindent
 set ruler number " Show line numbers
 set encoding=utf-8
 
+" ideavim shortcuts
+nnoremap <leader>re :action Refactorings.QuickListPopupAction<CR>
+set idearefactormode=keep
